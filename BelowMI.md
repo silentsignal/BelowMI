@@ -396,7 +396,7 @@ char* increment(char* p, long long l){
 
 The program expects the user to replace (patch) the `td` instruction generated as part of the above function with a NOP instruction (this requires access to SST with high privileges, but this is beside the point of the demonstration, as it is not supposed to be an exploit). After the single `td` instruction was patched, S2DBG allows reading and writing arbitrary memory, including segments belonging to QSECOFR (page protections still apply though). This behavior also confirms the threat model outlined in the Single-Level Store section on modern IBM i versions. 
 
-[DEMO]("demo/s2dbg.mp4")
+[Link to Demo](https://vimeo.com/976308689)
 
 #### Typed Pointers
 
@@ -545,7 +545,7 @@ Parameter:
 ===> wrkobj qgpl/crackemex
 ```
 
-[Link to demo](#TODO)
+[Link to demo](https://vimeo.com/976340326)
 
 # Footnotes and References
 
