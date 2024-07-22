@@ -2,7 +2,7 @@ IBM i is a vertically integrated system, where the vendor has full control over 
 
 In this writeup we provide a summary of technical information crucial to evaulate the exploitability and impact of memory safety problems in IBM i programs. As administrators and developers of IBM i aren't supposed to work "below MI level" this kind of information is not officially documented by the vendor. The information presented here is thus based on already published reverse engineering results[^3][^4], and our own findings uncovered using IBM's System Sertice Tools (SST) and the POWER-AS specific Processor [extensions](https://github.com/silentsignal/PowerAS) we developed for the Ghidra reverse engineering framework. 
 
-Tests were performed on a physical POWER 9 system running IBM i V7R4. Programs were compiled by the default settings of the system in the ILE program model. C language source code will be provided separately.
+Tests were performed on a physical POWER 9 system running IBM i V7R4. Programs were compiled by the default settings of the system in the ILE program model. C language source code are [provided separately](https://github.com/silentsignal/SAVF).
 
 
 ## The POWER ISA
